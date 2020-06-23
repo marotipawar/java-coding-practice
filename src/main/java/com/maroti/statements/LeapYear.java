@@ -26,6 +26,7 @@ public class LeapYear {
     }
 
     public static void main(String[] args) {
+
         System.out.println(isLeapYear(2000)); // output : true
         System.out.println(isLeapYear(2015)); // output : false
         System.out.println(isLeapYear(2020)); // output : true
