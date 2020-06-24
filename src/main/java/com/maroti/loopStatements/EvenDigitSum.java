@@ -13,7 +13,6 @@ public class EvenDigitSum {
 
                 int lastDigit=number%10;
                 temp=lastDigit;
-                //System.out.println(temp);
                 if(temp%2==0)
                 {
                     sum+=temp;
@@ -29,7 +28,7 @@ public class EvenDigitSum {
     }
 
     public static void main(String[] args) {
-        System.out.println(getEvenDigitSum(123456789));
+        System.out.println(getEvenDigitSum(123456789)); //output: 20
         //getEvenDigitSum(251);
     }
 
